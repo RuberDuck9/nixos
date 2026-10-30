@@ -5,7 +5,8 @@
 		# System Utils
 		vim git wget 
 
-		# Monitors
+		# Terminals and terminal utils
+		kitty
 		htop btop glances 
 
 		# Misc
