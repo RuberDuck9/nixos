@@ -6,6 +6,7 @@
       ./hardware-configuration.nix
       ./modules/system/networking
       ./modules/system/users
+      ./modules/system/display
       ./modules/system/packages.nix
       ./modules/system/fonts.nix
     ];
