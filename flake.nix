@@ -23,7 +23,7 @@
               useUserPackages = true;
               backupFileExtension = "bkup";
               extraSpecialArgs = { inherit inputs; };
-              users.luke = import ./home.nix;
+              users.luke = import ./home/luke.nix;
             };
           }
         ];
