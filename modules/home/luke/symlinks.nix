@@ -1,6 +1,6 @@
 { config, ... }: let
 	dotfiles = "${config.home.homeDirectory}/.dotfiles/config/luke";
-	create_symlink = path: config.lib.mkOutOfStoreSymlink path;
+	create_symlink = path: config.lib.file.mkOutOfStoreSymlink path;
 	configs = {
 		hypr = "hypr";
 	};
