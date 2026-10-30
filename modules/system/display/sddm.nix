@@ -1,8 +1,10 @@
 { ... }: {
-	services.displayManager.sddm = {
-		enable = true;
-		wayland = {
+	services.displayManager = {
+		sddm = {
 			enable = true;
+			wayland = {
+				enable = true;
+			};
 		};
 		defaultSession = "hyprland-uwsm";
 	};
