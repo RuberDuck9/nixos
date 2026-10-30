@@ -4,6 +4,7 @@
   imports =
     [ 
       ./hardware-configuration.nix
+      ./modules/system/networking
     ];
 
   boot.loader.grub = {
@@ -17,27 +18,18 @@
     efiSysMountPoint = "/boot";
   };
 
-  networking.hostName = "ihavenoname"; # Define your hostname.
-  networking.nameservers = [ "1.1.1.1" ];
-
-  # Configure network connections interactively with nmcli or nmtui.
-  networking.networkmanager.enable = true;
-
-  # Set your time zone.
-  time.timeZone = "America/Denver";
-
   users.users.luke = {
     isNormalUser = true;
     extraGroups = [ "wheel" ];
   };
 
   environment.systemPackages = with pkgs; [
-    vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+    vim
     wget
     git
   ];
 
-  system.stateVersion = "26.05"; # Did you read the comment?
+  system.stateVersion = "26.05";
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
