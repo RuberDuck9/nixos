@@ -2,6 +2,18 @@ My NixOS dotfiles
 .
 ├── config
 │   └── luke
+│       └── hypr
+│           ├── hyprland
+│           │   ├── animations.lua
+│           │   ├── autostart.lua
+│           │   ├── env.lua
+│           │   ├── general.lua
+│           │   ├── input.lua
+│           │   ├── keybinds.lua
+│           │   ├── monitors.lua
+│           │   ├── permissions.lua
+│           │   └── rules.lua
+│           └── hyprland.lua
 ├── configuration.nix
 ├── flake.lock
 ├── flake.nix
@@ -37,4 +49,4 @@ My NixOS dotfiles
 │           └── luke.nix
 └── README.txt
 
-13 directories, 24 files
+15 directories, 34 files
