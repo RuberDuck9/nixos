@@ -11,6 +11,6 @@
 	environment.systemPackages = with pkgs; [
 		hyprlock hypridle hyprsunset
 		waybar awww dunst
-		wofi
+		wofi brightnessctl
 	];	
 }
