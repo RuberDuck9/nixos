@@ -5,6 +5,9 @@
     [ 
       ./hardware-configuration.nix
       ./modules/system/networking
+      ./modules/system/users
+      ./modules/system/packages.nix
+      ./modules/system/fonts.nix
     ];
 
   boot.loader.grub = {
@@ -17,17 +20,6 @@
     canTouchEfiVariables = true;
     efiSysMountPoint = "/boot";
   };
-
-  users.users.luke = {
-    isNormalUser = true;
-    extraGroups = [ "wheel" ];
-  };
-
-  environment.systemPackages = with pkgs; [
-    vim
-    wget
-    git
-  ];
 
   system.stateVersion = "26.05";
 

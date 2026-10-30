@@ -8,9 +8,6 @@
   home.stateVersion = "26.05";
 
   home.packages = with pkgs; [
-    htop
-    tree
-    fastfetch
   ];
 
   programs.git = {
