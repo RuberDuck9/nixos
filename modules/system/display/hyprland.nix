@@ -9,9 +9,8 @@
 		extraPortals = with pkgs; [ xdg-desktop-portal-hyprland ];
 	};
 	environment.systemPackages = with pkgs; [
-		hyprlock
-		hypridle
-		hyprsunset
-		awww	
+		hyprlock hypridle hyprsunset
+		waybar awww dunst
+		wofi
 	];	
 }

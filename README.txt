@@ -2,18 +2,42 @@ My NixOS dotfiles
 .
 ├── config
 │   └── luke
-│       └── hypr
-│           ├── hyprland
-│           │   ├── animations.lua
-│           │   ├── autostart.lua
-│           │   ├── env.lua
-│           │   ├── general.lua
-│           │   ├── input.lua
-│           │   ├── keybinds.lua
-│           │   ├── monitors.lua
-│           │   ├── permissions.lua
-│           │   └── rules.lua
-│           └── hyprland.lua
+│       ├── dunst
+│       │   └── dunstrc
+│       ├── fastfetch
+│       │   └── config.jsonc
+│       ├── hypr
+│       │   ├── hypridle.conf
+│       │   ├── hyprland
+│       │   │   ├── animations.lua
+│       │   │   ├── autostart.lua
+│       │   │   ├── env.lua
+│       │   │   ├── general.lua
+│       │   │   ├── input.lua
+│       │   │   ├── keybinds.lua
+│       │   │   ├── monitors.lua
+│       │   │   ├── permissions.lua
+│       │   │   └── rules.lua
+│       │   ├── hyprland.lua
+│       │   └── hyprlock.conf
+│       ├── kitty
+│       │   ├── catppuccin_macchiato.conf
+│       │   └── kitty.conf
+│       ├── obs-studio
+│       │   └── themes
+│       │       ├── Catppuccin_Macchiato.ovt
+│       │       └── Catppuccin.obt
+│       ├── starship
+│       │   └── starship.toml
+│       ├── vesktop
+│       │   └── themes
+│       │       └── macchiato.theme.css
+│       ├── waybar
+│       │   ├── config
+│       │   ├── modules
+│       │   └── style.css
+│       └── wofi
+│           └── style.css
 ├── configuration.nix
 ├── flake.lock
 ├── flake.nix
@@ -49,4 +73,4 @@ My NixOS dotfiles
 │           └── luke.nix
 └── README.txt
 
-15 directories, 34 files
+25 directories, 48 files
