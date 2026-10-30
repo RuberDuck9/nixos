@@ -16,9 +16,10 @@ My NixOS dotfiles
 │   │       │   ├── default.nix
 │   │       │   └── git.nix
 │   │       ├── packages.nix
-│   │       └── shell
-│   │           ├── bash.nix
-│   │           └── default.nix
+│   │       ├── shell
+│   │       │   ├── bash.nix
+│   │       │   └── default.nix
+│   │       └── symlinks.nix
 │   └── system
 │       ├── display
 │       │   ├── default.nix
@@ -36,4 +37,4 @@ My NixOS dotfiles
 │           └── luke.nix
 └── README.txt
 
-13 directories, 23 files
+13 directories, 24 files
