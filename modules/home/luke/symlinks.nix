@@ -7,6 +7,7 @@
 		hypr = "hypr";
 		kitty = "kitty";
 		starship = "starship";
+		obs-studio = "obs-studio/themes";
 		vesktop = "vesktop";
 		waybar = "waybar";
 		wofi = "wofi";
@@ -17,10 +18,6 @@ in {
 			(name: subpath: { 
 				source = create_symlink "${dotfiles}/${subpath}"; 
 			})
-		configs)
-		
-		"obs-studio/themes" = {
-			source = create_symlink "${dotfiles}/obs-stduio/themes"; 
-		};
+		configs);
 
 }
