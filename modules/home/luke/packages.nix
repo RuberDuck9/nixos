@@ -18,7 +18,7 @@
     vesktop signal-desktop element-desktop
 
     # Games
-    prismlauncher steam
+    prismlauncher kdePackages.kigo 
 
     # Misc
     cava pipes asciiquarium
