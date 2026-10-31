@@ -8,6 +8,7 @@
 		kitty = "kitty";
 		"starship.toml" = "starship/starship.toml";
 		"obs-studio/themes" = "obs-studio/themes";
+		nvim = "nvim";
 		vesktop = "vesktop";
 		waybar = "waybar";
 		wofi = "wofi";
