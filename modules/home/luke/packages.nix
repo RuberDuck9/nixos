@@ -1,6 +1,6 @@
 {pkgs, ...}: {
 	home.packages = with pkgs; [
-		neovim
+		neovim yazi cava
 		starship
 		obs-studio
 		vesktop

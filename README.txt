@@ -23,6 +23,8 @@ My NixOS dotfiles
 │       ├── kitty
 │       │   ├── catppuccin_macchiato.conf
 │       │   └── kitty.conf
+│       ├── nvim
+│       │   └── init.lua
 │       ├── obs-studio
 │       │   └── themes
 │       │       ├── Catppuccin_Macchiato.ovt
@@ -76,4 +78,4 @@ My NixOS dotfiles
 │           └── luke.nix
 └── README.txt
 
-26 directories, 50 files
+27 directories, 51 files
