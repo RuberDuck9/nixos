@@ -13,7 +13,7 @@
 			          nrs";
 		};
 		initExtra = "
-			export STARSHIP_CONFIG = ~/.config/starship/starship.toml
+			export STARSHIP_CONFIG=~/.config/starship/starship.toml
 			(fastfetch);
 		        eval \"$(starship init bash)\"
 		";
