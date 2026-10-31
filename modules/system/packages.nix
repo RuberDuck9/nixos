@@ -12,13 +12,16 @@
     # Media playback
     mpv vlc feishin
 
+    # Image Viewers
+    gthumb
+
     # Browers
     librewolf brave ungoogled-chromium
 
     # File tools
-    thunar yazi
+    thunar nemo yazi
 
-    # Misc
+    # Terminal utils
     fastfetch tree
 
   ];

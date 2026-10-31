@@ -5,6 +5,16 @@
     noto-fonts
     noto-fonts-color-emoji
     noto-fonts-cjk-sans
+    jetbrains-mono
   ];
+
+  fonts.fontconfig = {
+    enable = true;
+    defaultFonts = {
+      monospace = [
+        "JetBrains Mono"
+      ];
+    };
+  };
 
 }

@@ -14,12 +14,12 @@ $character"""
 add_newline = false
 
 [directory]
-style = "#8aadf4"
+style = "#565f89"
 
 [character]
-success_symbol = "[❯](#b7bdf8)"
-error_symbol = "[❯](#ed8796)"
-vimcmd_symbol = "[❮](#a6da95)"
+success_symbol = "[❯](#414868)"
+error_symbol = "[❯](#f7768e)"
+vimcmd_symbol = "[❮](#73dac)"
 
 [git_branch]
 format = "[$branch]($style)"

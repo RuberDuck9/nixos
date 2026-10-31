@@ -3,10 +3,15 @@ My NixOS dotfiles
 .
 ├── config
 │   └── luke
+│       ├── btop
+│       │   ├── btop.conf
+│       │   └── themes
 │       ├── dunst
 │       │   └── dunstrc
 │       ├── fastfetch
 │       │   └── config.jsonc
+│       ├── FreeCAD
+│       │   └── FreeCAD.conf
 │       ├── hypr
 │       │   ├── hypridle.conf
 │       │   ├── hyprland
@@ -23,14 +28,16 @@ My NixOS dotfiles
 │       │   └── hyprlock.conf
 │       ├── kitty
 │       │   ├── catppuccin_macchiato.conf
-│       │   └── kitty.conf
+│       │   ├── kitty.conf
+│       │   └── tokyo_night.conf
 │       ├── nvim
 │       │   ├── init.lua
 │       │   └── nvim-pack-lock.json
 │       ├── obs-studio
 │       │   └── themes
 │       │       ├── Catppuccin_Macchiato.ovt
-│       │       └── Catppuccin.obt
+│       │       ├── Catppuccin.obt
+│       │       └── tokyonight.ovt
 │       ├── starship
 │       │   └── starship.toml
 │       ├── vesktop
@@ -83,4 +90,4 @@ My NixOS dotfiles
 │           └── luke.nix
 └── README.txt
 
-27 directories, 55 files
+30 directories, 59 files

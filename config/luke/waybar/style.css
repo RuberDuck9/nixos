@@ -1,4 +1,4 @@
-@define-color themed_color #CAD3F5;
+@define-color themed_color #c0caf5;
 
 * {
 	font-family: "JetBrains Mono";
@@ -11,7 +11,7 @@
 window#waybar,
 window#waybar.empty,
 window#waybar.empty #window {
-    background-color: #24273A;
+    background-color: #1a1b26;
     padding: 0px;
     border: 0px;
 }

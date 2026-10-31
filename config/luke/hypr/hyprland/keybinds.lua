@@ -1,5 +1,5 @@
 local terminal    = "kitty"
-local fileManager = "thunar"
+local fileManager = "nemo"
 local menu        = "wofi --show drun"
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
@@ -14,7 +14,7 @@ hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + U", hl.dsp.exit)
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
-hl.bind(mainMod .. " + S", hl.dsp.exec_cmd('grim -g "$(slurp)" /home/Luke/screenshots/$(date +%Y-%m-%d_%H-%M-%S.png)'))
+hl.bind(mainMod .. " + S", hl.dsp.exec_cmd('grim -g "$(slurp)" ~/screenshots/$(date +%Y-%m-%d_%H-%M-%S.png)'))
 hl.bind("Print", hl.dsp.exec_cmd('grim - | satty -f - --copy-command wl-copy -o "~/screenshots/%Y-%m-%d_%H-%M-%S.png"'))
 
 -- Move focus with mainMod + arrow keys

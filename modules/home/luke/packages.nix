@@ -6,7 +6,7 @@
     starship
 
     # Recording
-    obs-studio
+    obs-studio grim slurp
 
     # CAD
     kicad freecad 
@@ -19,6 +19,9 @@
 
     # Games
     prismlauncher kdePackages.kigo 
+
+    # Theming
+    gowall
 
     # Misc
     cava pipes asciiquarium
