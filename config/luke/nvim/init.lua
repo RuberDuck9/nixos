@@ -70,6 +70,15 @@ do
   -- Minimal number of screen lines to keep above and below the cursor.
   vim.o.scrolloff = 10
 
+  -- Insert spaces instead of a tab
+  vim.opt.expandtab = true
+
+  -- How much to move a line per shift
+  vim.opt.shiftwidth = 2
+
+  -- How many spaces tab inserts
+  vim.opt.softtabstop = 2
+
   -- if performing an operation that would fail due to unsaved changes in the buffer (like `:q`),
   -- instead raise a dialog asking if you wish to save the current file(s)
   vim.o.confirm = true

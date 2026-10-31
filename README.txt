@@ -47,9 +47,11 @@ My NixOS dotfiles
 ├── hardware-configuration.nix
 ├── home
 │   ├── common.nix
+│   ├── guest.nix
 │   └── luke.nix
 ├── modules
 │   ├── home
+│   │   ├── guest
 │   │   └── luke
 │   │       ├── dev
 │   │       │   ├── default.nix
@@ -77,7 +79,8 @@ My NixOS dotfiles
 │       │   └── display-manager.nix
 │       └── users
 │           ├── default.nix
+│           ├── guest.nix
 │           └── luke.nix
 └── README.txt
 
-27 directories, 53 files
+28 directories, 55 files

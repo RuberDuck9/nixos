@@ -1,5 +1,8 @@
 {...}: {
-	imports = [
-		./luke.nix
-	];
+
+  imports = [
+    ./luke.nix
+    ./guest.nix
+  ];
+
 }

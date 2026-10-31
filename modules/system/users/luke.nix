@@ -1,8 +1,8 @@
 {...}: {
 
-	users.users.luke = {
-		isNormalUser = true;
-		extraGroups = [ "wheel" ];
-	};
+  users.users.luke = {
+    isNormalUser = true;
+    extraGroups = [ "wheel" ];
+  };
 
 }
