@@ -53,7 +53,8 @@ My NixOS dotfiles
 │   │   └── luke
 │   │       ├── dev
 │   │       │   ├── default.nix
-│   │       │   └── git.nix
+│   │       │   ├── git.nix
+│   │       │   └── nvim.nix
 │   │       ├── packages.nix
 │   │       ├── shell
 │   │       │   ├── bash.nix
@@ -79,4 +80,4 @@ My NixOS dotfiles
 │           └── luke.nix
 └── README.txt
 
-27 directories, 52 files
+27 directories, 53 files
