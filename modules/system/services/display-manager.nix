@@ -1,4 +1,5 @@
 { pkgs, ... }: {
+
 	services.displayManager = {
 		sddm = {
 			enable = true;
@@ -7,10 +8,12 @@
 		};
 		defaultSession = "hyprland-uwsm";
 	};
+
 	environment.systemPackages = [
 		(pkgs.catppuccin-sddm.override {
      			flavor = "macchiato";
       			accent = "mauve";
     		})
 	];
+
 }

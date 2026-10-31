@@ -33,7 +33,8 @@ My NixOS dotfiles
 │       │   │       └── Untitled.json.bak
 │       │   ├── global.ini
 │       │   ├── logs
-│       │   │   └── 2026-10-30 18-04-02.txt
+│       │   │   ├── 2026-10-30 18-04-02.txt
+│       │   │   └── 2026-10-30 18-08-48.txt
 │       │   ├── plugin_config
 │       │   │   ├── obs-websocket
 │       │   │   │   └── config.json
@@ -81,8 +82,7 @@ My NixOS dotfiles
 │   └── system
 │       ├── display
 │       │   ├── default.nix
-│       │   ├── hyprland.nix
-│       │   └── sddm.nix
+│       │   └── hyprland.nix
 │       ├── fonts.nix
 │       ├── networking
 │       │   ├── default.nix
@@ -90,9 +90,13 @@ My NixOS dotfiles
 │       │   ├── ssh.nix
 │       │   └── system.nix
 │       ├── packages.nix
+│       ├── services
+│       │   ├── audio.nix
+│       │   ├── default.nix
+│       │   └── display-manager.nix
 │       └── users
 │           ├── default.nix
 │           └── luke.nix
 └── README.txt
 
-37 directories, 58 files
+38 directories, 61 files
