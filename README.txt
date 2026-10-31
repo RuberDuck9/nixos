@@ -52,7 +52,6 @@ My NixOS dotfiles
 │   └── luke.nix
 ├── modules
 │   ├── home
-│   │   ├── guest
 │   │   └── luke
 │   │       ├── dev
 │   │       │   ├── default.nix
@@ -84,4 +83,4 @@ My NixOS dotfiles
 │           └── luke.nix
 └── README.txt
 
-28 directories, 55 files
+27 directories, 55 files
