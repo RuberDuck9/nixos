@@ -24,32 +24,9 @@ My NixOS dotfiles
 │       │   ├── catppuccin_macchiato.conf
 │       │   └── kitty.conf
 │       ├── obs-studio
-│       │   ├── basic
-│       │   │   ├── profiles
-│       │   │   │   └── Untitled
-│       │   │   │       └── basic.ini
-│       │   │   └── scenes
-│       │   │       ├── Untitled.json
-│       │   │       └── Untitled.json.bak
-│       │   ├── global.ini
-│       │   ├── logs
-│       │   │   ├── 2026-10-30 18-04-02.txt
-│       │   │   └── 2026-10-30 18-08-48.txt
-│       │   ├── plugin_config
-│       │   │   ├── obs-websocket
-│       │   │   │   └── config.json
-│       │   │   ├── rtmp-services
-│       │   │   │   ├── package.json
-│       │   │   │   └── services.json
-│       │   │   └── text-freetype2
-│       │   ├── plugin_manager
-│       │   │   └── modules.json
-│       │   ├── profiler_data
-│       │   ├── themes
-│       │   │   ├── Catppuccin_Macchiato.ovt
-│       │   │   └── Catppuccin.obt
-│       │   ├── updates
-│       │   └── user.ini
+│       │   └── themes
+│       │       ├── Catppuccin_Macchiato.ovt
+│       │       └── Catppuccin.obt
 │       ├── starship
 │       │   └── starship.toml
 │       ├── vesktop
@@ -99,4 +76,4 @@ My NixOS dotfiles
 │           └── luke.nix
 └── README.txt
 
-38 directories, 61 files
+26 directories, 50 files
