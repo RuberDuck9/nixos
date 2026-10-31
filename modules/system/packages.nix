@@ -3,7 +3,10 @@
 	environment.systemPackages = with pkgs; [
 		
 		# System Utils
-		vim git wget gcc clangd
+		vim git wget 
+
+		# Compiles
+		gcc clang clang-tools
 
 		# Terminals and terminal utils
 		kitty
