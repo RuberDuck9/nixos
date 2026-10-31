@@ -8,7 +8,7 @@
 				nix flake update && 
 				nrs";
 			ganurs = "mkrdme && 
-				  git add . && git commit -m \"update config\" && 
+				  git add . && 
 				  nix flake update &&
 			          nrs";
 		};
