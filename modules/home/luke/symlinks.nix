@@ -6,7 +6,7 @@
 		fastfetch = "fastfetch";
 		hypr = "hypr";
 		kitty = "kitty";
-		starship = "starship";
+		"starship.toml" = "starship/starship.toml";
 		"obs-studio/themes" = "obs-studio/themes";
 		vesktop = "vesktop";
 		waybar = "waybar";
