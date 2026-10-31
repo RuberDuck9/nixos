@@ -6,16 +6,21 @@
 		fastfetch = "fastfetch";
 		hypr = "hypr";
 		kitty = "kitty";
-		obs-studio = "obs-studio";
 		starship = "starship";
 		vesktop = "vesktop";
 		waybar = "waybar";
 		wofi = "wofi";
 	};
 in {
-	xdg.configFile = ( builtins.mapAttrs
+	xdg.configFile = ( 
+		builtins.mapAttrs
 			(name: subpath: { 
 				source = create_symlink "${dotfiles}/${subpath}"; 
 			})
-		configs );
+		configs)
+		
+		"obs-studio/themes" = {
+			source = create_symlink "${dotfiles}/obs-stduio/themes"; 
+		};
+
 }
