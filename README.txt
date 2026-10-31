@@ -24,9 +24,8 @@ My NixOS dotfiles
 │       │   ├── catppuccin_macchiato.conf
 │       │   └── kitty.conf
 │       ├── obs-studio
-│       │   └── themes
-│       │       ├── Catppuccin_Macchiato.ovt
-│       │       └── Catppuccin.obt
+│       │   ├── Catppuccin_Macchiato.ovt
+│       │   └── Catppuccin.obt
 │       ├── starship
 │       │   └── starship.toml
 │       ├── vesktop
@@ -76,4 +75,4 @@ My NixOS dotfiles
 │           └── luke.nix
 └── README.txt
 
-26 directories, 50 files
+25 directories, 50 files

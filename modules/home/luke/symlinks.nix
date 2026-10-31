@@ -7,7 +7,7 @@
 		hypr = "hypr";
 		kitty = "kitty";
 		starship = "starship";
-		"obs-studio/themes" = "obs-studio/themes";
+		obs-studio/themes = "obs-studio/themes";
 		vesktop = "vesktop";
 		waybar = "waybar";
 		wofi = "wofi";
