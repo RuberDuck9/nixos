@@ -1,16 +1,14 @@
-{ config, lib, pkgs, ... }:
+{ config, lib, pkgs, ... }: {
 
-{
-  imports =
-    [ 
-      ./hardware-configuration.nix
-      ./modules/system/networking
-      ./modules/system/users
-      ./modules/system/display
-      ./modules/system/services
-      ./modules/system/packages.nix
-      ./modules/system/fonts.nix
-    ];
+ imports = [ 
+    ./hardware-configuration.nix
+    ./modules/system/networking
+    ./modules/system/users
+    ./modules/system/display
+    ./modules/system/services
+    ./modules/system/packages.nix
+    ./modules/system/fonts.nix
+  ];
 
   boot.loader.grub = {
     enable = true;
@@ -28,4 +26,3 @@
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
 }
-
