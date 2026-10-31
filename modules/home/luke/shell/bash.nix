@@ -12,7 +12,9 @@
 				  nix flake update &&
 			          nrs";
 		};
-		shellInit = "(fastfetch)";
-		shellInit = "eval \"(starship init bash)\"";
+		shellInit = "
+			(fastfetch);
+		        eval \"(starship init bash)\"
+		";
 	};
 }
