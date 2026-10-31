@@ -20,6 +20,9 @@
     # Games
     prismlauncher kdePackages.kigo 
 
+    # Learning
+    anki
+
     # Theming
     gowall
 

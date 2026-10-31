@@ -38,6 +38,13 @@ My NixOS dotfiles
 │       │       ├── Catppuccin_Macchiato.ovt
 │       │       ├── Catppuccin.obt
 │       │       └── tokyonight.ovt
+│       ├── prism-launcher
+│       │   ├── prismlauncher.cfg
+│       │   └── themes
+│       │       └── tokyonight
+│       │           ├── resources
+│       │           ├── theme.json
+│       │           └── themeStyle.css
 │       ├── starship
 │       │   └── starship.toml
 │       ├── vesktop
@@ -65,6 +72,7 @@ My NixOS dotfiles
 │   │       │   ├── git.nix
 │   │       │   └── nvim.nix
 │   │       ├── packages.nix
+│   │       ├── README.txt
 │   │       ├── shell
 │   │       │   ├── bash.nix
 │   │       │   └── default.nix
@@ -90,4 +98,4 @@ My NixOS dotfiles
 │           └── luke.nix
 └── README.txt
 
-30 directories, 59 files
+34 directories, 63 files

@@ -15,6 +15,8 @@
     "obs-studio/themes" = "obs-studio/themes";
     nvim = "nvim";
     "vesktop/themes" = "vesktop/themes";
+    "../.local/share/PrismLauncher/themes" = "prism-launcher/themes";
+    "../.local/share/PrismLauncher/prismlauncher.cfg" = "prism-launcher/prismlauncher.cfg";
     waybar = "waybar";
     wofi = "wofi";
   };
