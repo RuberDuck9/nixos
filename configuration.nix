@@ -7,6 +7,7 @@
       ./modules/system/networking
       ./modules/system/users
       ./modules/system/display
+      ./modules/system/services
       ./modules/system/packages.nix
       ./modules/system/fonts.nix
     ];
