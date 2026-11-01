@@ -9,6 +9,7 @@
     dunst = "dunst";
     fastfetch = "fastfetch";
     "FreeCAD/FreeCAD.conf" = "FreeCAD/FreeCAD.conf";
+    htop = "htop";
     hypr = "hypr";
     kitty = "kitty";
     "starship.toml" = "starship/starship.toml";

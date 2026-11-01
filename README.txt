@@ -12,6 +12,8 @@ My NixOS dotfiles
 │       │   └── config.jsonc
 │       ├── FreeCAD
 │       │   └── FreeCAD.conf
+│       ├── htop
+│       │   └── htoprc
 │       ├── hypr
 │       │   ├── hypridle.conf
 │       │   ├── hyprland
@@ -98,4 +100,4 @@ My NixOS dotfiles
 │           └── luke.nix
 └── README.txt
 
-34 directories, 63 files
+35 directories, 64 files
