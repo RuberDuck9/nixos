@@ -5,6 +5,6 @@ hl.config({
   },
 })
 
-hl.permission("/usr/(bin|local/bin)/grim", "screencopy", "allow")
-hl.permission("/usr/(lib|libexec|lib64)/xdg-desktop-portal-hyprland", "screencopy", "allow")
-hl.permission("/usr/bin/hyprlock", "screencopy", "allow")
+hl.permission("/nix/store/.*-grim-.*/bin/grim", "screencopy", "allow")
+hl.permission("/nix/store/.*-xdg-desktop-portal-hyprland-.*/libexec/\\.xdg-desktop-portal-hyprland-wrapped", "screencopy", "allow")
+hl.permission("/nix/store/.*-hyprlock-.*/bin/hyprlock", "screencopy", "allow")

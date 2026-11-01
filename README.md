@@ -14,8 +14,8 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 | Keys                                      | Action                              |
 | ----------------------------------------- | ----------------------------------- |
 | `Super + Return`                          | Kitty                               |
-| `Super + D`                              | Wofi (Launcher)                     |
-| `Super + N`                              | Nemo (File Manager)                 |
+| `Super + D`                               | Wofi (Launcher)                     |
+| `Super + N`                               | Nemo (File Manager)                 |
 | `Super + F`                               | Toggle Fullscreen                   |
 | `Super + V`                               | Toggle Float                        |
 | `Super + P`                               | Toggle Pseudo                       |
@@ -23,6 +23,7 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 | `Super + S`                               | Region Screenshot                   |
 | `Print`                                   | Workspace Screenshot                |
 | `Super + Q`                               | Close Window                        |
+| `Super + X`                               | Lock Screen                         |
 | `Super + Shift + E`                       | Exit Hyprland                       |
 | `Super + [H J K L]`                       | Move Window Focus                   |
 | `Super + Shift + [H J K L]`               | Move Window                         |

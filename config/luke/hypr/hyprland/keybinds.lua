@@ -15,7 +15,8 @@ hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
 hl.bind(mainMod .. " + S", hl.dsp.exec_cmd('grim -g "$(slurp)" ~/screenshots/$(date +%Y-%m-%d_%H-%M-%S.png)'))
 hl.bind("Print", hl.dsp.exec_cmd('grim - | satty -f - --copy-command wl-copy -o "~/screenshots/%Y-%m-%d_%H-%M-%S.png"'))
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())
-hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exit)
+hl.bind(mainMod .. " + X", hl.dsp.exec_cmd('hyprlock'))
+hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exit())
 
 -- Move focus with mainMod + vim keybinds
 hl.bind(mainMod .. " + H",  hl.dsp.focus({ direction = "left" }))
