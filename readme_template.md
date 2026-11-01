@@ -1,6 +1,14 @@
 # nixos dotfiles
 My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 
+<div align="center">
+
+![NixOS](https://img.shields.io/badge/Nixos-26.05-blue?style=flat&logo=nixos&labelColor=white)
+![Hyprland](https://img.shields.io/badge/Hyprland-0.55.4-blue?style=flat&logo=hyprland)
+![License](https://img.shields.io/badge/License-AGPL--3.0-blue?style=flat)
+
+</div>
+
 ## Keybinds
 
 | Keys                                      | Action                              |
