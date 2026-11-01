@@ -127,7 +127,8 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 │           ├── default.nix
 │           ├── guest.nix
 │           └── luke.nix
-├── readme_template.txt
+├── README.md
+├── readme_template.md
 └── README.txt
 
-35 directories, 67 files
+35 directories, 68 files
