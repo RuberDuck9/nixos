@@ -25,8 +25,7 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 | `Super + Ctrl + [H J K L]`                | Resize Window                       |
 
 ## Layout
-...
-
+```
 .
 ├── config
 │   └── luke
@@ -128,7 +127,7 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 │           ├── guest.nix
 │           └── luke.nix
 ├── README.md
-├── readme_template.md
-└── README.txt
+└── readme_template.md
 
-35 directories, 68 files
+35 directories, 67 files
+```

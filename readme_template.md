@@ -25,4 +25,4 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 | `Super + Ctrl + [H J K L]`                | Resize Window                       |
 
 ## Layout
-...
+```
