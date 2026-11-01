@@ -2,26 +2,32 @@ local terminal    = "kitty"
 local fileManager = "nemo"
 local menu        = "wofi --show drun"
 
-local mainMod = "SUPER" -- Sets "Windows" key as main modifier
+local mainMod = "SUPER"
 
--- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
+-- Actions
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
-local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
--- closeWindowBind:set_enabled(false)
-hl.bind(mainMod .. " + N", hl.dsp.exec_cmd(fileManager))
-hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(menu))
+hl.bind(mainMod .. " + N", hl.dsp.exec_cmd(fileManager))
+hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ action = "toggle" }))
+hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
-hl.bind(mainMod .. " + U", hl.dsp.exit)
-hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
+hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) 
 hl.bind(mainMod .. " + S", hl.dsp.exec_cmd('grim -g "$(slurp)" ~/screenshots/$(date +%Y-%m-%d_%H-%M-%S.png)'))
 hl.bind("Print", hl.dsp.exec_cmd('grim - | satty -f - --copy-command wl-copy -o "~/screenshots/%Y-%m-%d_%H-%M-%S.png"'))
+hl.bind(mainMod .. " + Q", hl.dsp.window.close())
+hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exit)
 
--- Move focus with mainMod + arrow keys
-hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
-hl.bind(mainMod .. " + right", hl.dsp.focus({ direction = "right" }))
-hl.bind(mainMod .. " + up",    hl.dsp.focus({ direction = "up" }))
-hl.bind(mainMod .. " + down",  hl.dsp.focus({ direction = "down" }))
+-- Move focus with mainMod + vim keybinds
+hl.bind(mainMod .. " + H",  hl.dsp.focus({ direction = "left" }))
+hl.bind(mainMod .. " + H", hl.dsp.focus({ direction = "right" }))
+hl.bind(mainMod .. " + J",    hl.dsp.focus({ direction = "up" }))
+hl.bind(mainMod .. " + K",  hl.dsp.focus({ direction = "down" }))
+
+-- Move windows with mainMod + vim keybinds
+hl.bind(mainMod .. " + SHIFT + H", hl.dsp.window.move({ direction = "l" }), { description = "Window: Move left" })
+hl.bind(mainMod .. " + SHIFT + L", hl.dsp.window.move({ direction = "r" }), { description = "Window: Move right" })
+hl.bind(mainMod .. " + SHIFT + J", hl.dsp.window.move({ direction = "d" }), { description = "Window: Move down" })
+hl.bind(mainMod .. " + SHIFT + K", hl.dsp.window.move({ direction = "u" }), { description = "Window: Move up" })
 
 -- Switch workspaces with mainMod + [0-9]
 -- Move active window to a workspace with mainMod + SHIFT + [0-9]
@@ -38,6 +44,29 @@ hl.bind(mainMod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
 -- Move/resize windows with mainMod + LMB/RMB and dragging
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
+
+
+-- Resize windows with mainMod + vim keybinds
+hl.bind(
+	mainMod .. " + CTRL + H",
+	hl.dsp.window.resize({ x = -50, y = 0, relative = true }),
+	{ repeat_key = true, description = "Window: Resize left" }
+)
+hl.bind(
+	mainMod .. " + CTRL + L",
+	hl.dsp.window.resize({ x = 50, y = 0, relative = true }),
+	{ repeat_key = true, description = "Window: Resize right" }
+)
+hl.bind(
+	mainMod .. " + CTRL + J",
+	hl.dsp.window.resize({ x = 0, y = 50, relative = true }),
+	{ repeat_key = true, description = "Window: Resize down" }
+)
+hl.bind(
+	mainMod .. " + CTRL + K",
+	hl.dsp.window.resize({ x = 0, y = -50, relative = true }),
+	{ repeat_key = true, description = "Window: Resize up" }
+)
 
 -- Laptop multimedia keys for volume and LCD brightness
 hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true, repeating = true })

@@ -3,7 +3,7 @@
   programs.bash = {
     enable = true;
     shellAliases = {
-      mkrdme = "{ echo \"My NixOS dotfiles\"; echo \"\"; tree; } > README.txt"; 
+      mkrdme = "{ cat ~/.dotfiles/readme_template.txt; echo \"\"; tree; } > README.txt"; 
       nrs = "sudo nixos-rebuild switch --flake ~/.dotfiles";
       nurs = "mkrdme && 
               nix flake update && 

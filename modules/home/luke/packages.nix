@@ -6,7 +6,7 @@
     starship
 
     # Recording
-    obs-studio grim slurp
+    obs-studio grim slurp satty
 
     # CAD
     kicad freecad 
