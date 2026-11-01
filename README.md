@@ -7,9 +7,7 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 ![Hyprland](https://img.shields.io/badge/Hyprland-0.55.4-blue?style=flat&logo=hyprland)
 ![License](https://img.shields.io/badge/License-AGPL--3.0-blue?style=flat)
 
-
 </div>
-
 
 ## Keybinds
 
@@ -102,6 +100,7 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 │   ├── common.nix
 │   ├── guest.nix
 │   └── luke.nix
+├── LICENSE
 ├── modules
 │   ├── home
 │   │   └── luke
@@ -139,5 +138,5 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 ├── README.md
 └── readme_template.md
 
-35 directories, 67 files
+35 directories, 68 files
 ```
