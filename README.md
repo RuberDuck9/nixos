@@ -6,8 +6,8 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 | Keys                                      | Action                              |
 | ----------------------------------------- | ----------------------------------- |
 | `Super + Return`                          | Kitty                               |
-| `Super + D``                              | Wofi (Launcher)                     |
-| `Super + N``                              | Nemo (File Manager)                 |
+| `Super + D`                              | Wofi (Launcher)                     |
+| `Super + N`                              | Nemo (File Manager)                 |
 | `Super + F`                               | Toggle Fullscreen                   |
 | `Super + V`                               | Toggle Float                        |
 | `Super + P`                               | Toggle Pseudo                       |
