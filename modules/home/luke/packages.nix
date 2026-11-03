@@ -12,10 +12,10 @@
     kicad freecad 
 
     # Security
-    keepassxc kdePackages.kleopatra
+    keepassxc kdePackages.kleopatra ghidra
 
     # Communication
-    vesktop signal-desktop element-desktop
+    vesktop signal-desktop element-desktop thunderbird
 
     # Games
     prismlauncher kdePackages.kigo 
