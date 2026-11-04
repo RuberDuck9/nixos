@@ -12,6 +12,9 @@
     # Media playback
     mpv vlc feishin
 
+    # Audio tools
+    pavucontrol
+
     # Image Viewers
     gthumb
 
