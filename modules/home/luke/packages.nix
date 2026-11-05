@@ -27,7 +27,7 @@
     gowall
 
     # Misc
-    cava pipes asciiquarium
+    cava pipes asciiquarium onefetch
 
   ];
 
