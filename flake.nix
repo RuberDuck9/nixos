@@ -3,11 +3,17 @@
   description = "Main NixOS Config";
 
   inputs = {
+    # base nix pkgs
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
+
+    # home manager
     home-manager = {
       url = "github:nix-community/home-manager/release-26.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    # custom derivations
+    subminer-flake.url = "github:RuberDuck9/subminer-flake";
   };
 
   outputs = inputs@{ self, nixpkgs, home-manager, ... }: {

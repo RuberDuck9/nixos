@@ -1,6 +1,6 @@
-{pkgs, ...}: {
+{pkgs, inputs, ...}: {
 
-  home.packages = with pkgs; [
+  home.packages = (with pkgs; [
 
     # Terminal
     starship
@@ -28,6 +28,10 @@
 
     # Misc
     cava pipes asciiquarium onefetch
+
+  ]) ++ [
+
+    inputs.subminer-flake.packages.${pkgs.stdenv.hostPlatform.system}.subminer
 
   ];
 

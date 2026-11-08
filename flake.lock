@@ -37,10 +37,45 @@
         "type": "github"
       }
     },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1793865203,
+        "narHash": "sha256-/cpdPHaySDIyCgZI6EWngiM6jK3YLUNzv1b7lTzy6Bk=",
+        "owner": "Nixos",
+        "repo": "nixpkgs",
+        "rev": "c56a87d8e41ce69bd2af57eb35dcc117a9dfca33",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Nixos",
+        "ref": "nixos-26.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "home-manager": "home-manager",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "subminer-flake": "subminer-flake"
+      }
+    },
+    "subminer-flake": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1794159571,
+        "narHash": "sha256-6Vx0EcoYZT5Q9b4NiBU8JEfhPsYmvJOK9FETSYZMgFQ=",
+        "owner": "RuberDuck9",
+        "repo": "subminer-flake",
+        "rev": "844f54dd45e6f23fe7bd8692641c7cd7e480a47d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "RuberDuck9",
+        "repo": "subminer-flake",
+        "type": "github"
       }
     }
   },
