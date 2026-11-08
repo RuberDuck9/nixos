@@ -3,7 +3,7 @@
   environment.systemPackages = with pkgs; [
 
     # System Utils
-    vim nano git wget curl unzip
+    vim nano git wget curl zip unzip e2fsprogs
 
     # Terminals and terminal utils
     kitty
@@ -19,7 +19,7 @@
     gthumb
 
     # Browers
-    librewolf brave ungoogled-chromium
+    librewolf ungoogled-chromium
 
     # File tools
     thunar nemo yazi

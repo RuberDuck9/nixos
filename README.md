@@ -109,6 +109,7 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 │   │       │   ├── default.nix
 │   │       │   ├── git.nix
 │   │       │   └── nvim.nix
+│   │       ├── input.nix
 │   │       ├── packages.nix
 │   │       ├── README.txt
 │   │       ├── shell
@@ -139,5 +140,5 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 ├── README.md
 └── readme_template.md
 
-35 directories, 68 files
+35 directories, 69 files
 ```
