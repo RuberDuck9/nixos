@@ -10,10 +10,10 @@
     htop btop glances 
 
     # Media playback
-    mpv vlc feishin
+    mpv vlc feishin yt-dlp deno
 
     # Audio tools
-    pavucontrol
+    pavucontrol ffmpeg
 
     # Image Viewers
     gthumb

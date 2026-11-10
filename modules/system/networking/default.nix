@@ -6,6 +6,7 @@
     ./dns.nix
     ./wireguard.nix
     ./smb.nix
+    ./mullvad.nix
   ];
 
 }

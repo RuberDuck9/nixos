@@ -36,8 +36,12 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 ## Layout
 ```
 .
+├── LICENSE
+├── README.md
 ├── config
 │   └── luke
+│       ├── FreeCAD
+│       │   └── FreeCAD.conf
 │       ├── btop
 │       │   ├── btop.conf
 │       │   └── themes
@@ -45,8 +49,6 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 │       │   └── dunstrc
 │       ├── fastfetch
 │       │   └── config.jsonc
-│       ├── FreeCAD
-│       │   └── FreeCAD.conf
 │       ├── htop
 │       │   └── htoprc
 │       ├── hypr
@@ -72,8 +74,8 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 │       │   └── nvim-pack-lock.json
 │       ├── obs-studio
 │       │   └── themes
-│       │       ├── Catppuccin_Macchiato.ovt
 │       │       ├── Catppuccin.obt
+│       │       ├── Catppuccin_Macchiato.ovt
 │       │       └── tokyonight.ovt
 │       ├── prism-launcher
 │       │   ├── prismlauncher.cfg
@@ -101,17 +103,16 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 │   ├── common.nix
 │   ├── guest.nix
 │   └── luke.nix
-├── LICENSE
 ├── modules
 │   ├── home
 │   │   └── luke
+│   │       ├── README.txt
 │   │       ├── dev
 │   │       │   ├── default.nix
 │   │       │   ├── git.nix
 │   │       │   └── nvim.nix
 │   │       ├── input.nix
 │   │       ├── packages.nix
-│   │       ├── README.txt
 │   │       ├── shell
 │   │       │   ├── bash.nix
 │   │       │   └── default.nix
@@ -121,9 +122,11 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 │       │   ├── default.nix
 │       │   └── hyprland.nix
 │       ├── fonts.nix
+│       ├── locale.nix
 │       ├── networking
 │       │   ├── default.nix
 │       │   ├── dns.nix
+│       │   ├── mullvad.nix
 │       │   ├── smb.nix
 │       │   ├── ssh.nix
 │       │   ├── system.nix
@@ -137,8 +140,7 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 │           ├── default.nix
 │           ├── guest.nix
 │           └── luke.nix
-├── README.md
 └── readme_template.md
 
-35 directories, 69 files
+35 directories, 71 files
 ```

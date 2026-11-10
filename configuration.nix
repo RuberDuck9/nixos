@@ -8,6 +8,7 @@
     ./modules/system/services
     ./modules/system/packages.nix
     ./modules/system/fonts.nix
+    ./modules/system/locale.nix
   ];
 
   boot.loader.grub = {
