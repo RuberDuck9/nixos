@@ -21,13 +21,15 @@
     prismlauncher kdePackages.kigo 
 
     # Learning
-    anki
+    anki libreoffice
 
     # Theming
     gowall
 
     # Misc
-    cava pipes asciiquarium onefetch
+    cava pipes asciiquarium onefetch spotiflac
+
+    wayle pasystray
 
   ]) ++ [
 

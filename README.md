@@ -135,12 +135,14 @@ My dotfiles for NixOS, built around Hyprland and Tokyo Night.
 │       ├── services
 │       │   ├── audio.nix
 │       │   ├── default.nix
-│       │   └── display-manager.nix
+│       │   ├── display-manager.nix
+│       │   ├── input.nix
+│       │   └── power.nix
 │       └── users
 │           ├── default.nix
 │           ├── guest.nix
 │           └── luke.nix
 └── readme_template.md
 
-35 directories, 71 files
+35 directories, 73 files
 ```

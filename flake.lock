@@ -65,11 +65,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1794168681,
-        "narHash": "sha256-3QD2Dki52JuWq6IUpynUSsTkUSlH2EAEZ5i96tRwG38=",
+        "lastModified": 1794502435,
+        "narHash": "sha256-6TFAxA2CuInukVWEaGY4k6f0qGvbEGVyA3bfcCNHK04=",
         "owner": "RuberDuck9",
         "repo": "subminer-flake",
-        "rev": "0341b17780d7a29813f9e5c67f57d79ba79bac49",
+        "rev": "bd4dbf4b74629137f028236ffba21ae2485cc22c",
         "type": "github"
       },
       "original": {
